@@ -7,11 +7,8 @@ function starRating(data){
     for(let i =0 ; i<data.length;i++){
         vote += data[i] * (i+1);
     }
-
     let avg = vote / sum ; 3.55
-    
     return `[${avg.toFixed(2)}] ${'*'.repeat(Math.round(avg))}`;
-
 }
 
 console.log(starRating([55, 67, 98, 115, 61]));

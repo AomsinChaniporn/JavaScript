@@ -4,16 +4,6 @@ function insertWhitespace(string) {
    return string;
 }
 
-
-
-
-
-
-
-
-
-
-
 console.log(insertWhitespace("SheWalksToTheBeach")) ;
 console.log(insertWhitespace("MarvinTalksTooMuch"));
 console.log(insertWhitespace("TheGreatestUpsetInHistory"));

@@ -9,14 +9,7 @@ function TotalVolume(){
      }
      return sum;
    }
-   
-   
-   
-   
-   
-   
-   
-   
-   console.log(TotalVolume([4,2,4],[3,3,3],[1,1,2],[2,1,1]));
-   console.log(TotalVolume([2,2,2],[2,1,1]));
-   console.log(TotalVolume([1,1,1]));
+
+console.log(TotalVolume([4,2,4],[3,3,3],[1,1,2],[2,1,1]));
+console.log(TotalVolume([2,2,2],[2,1,1]));
+console.log(TotalVolume([1,1,1]));

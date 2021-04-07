@@ -2,7 +2,6 @@ function primeFactorize(n) {
     const primeFactors = [];
     let primeFactor = 0;
   
-  
     let i = 2;
     while (i <= n / i) {
       if (n % i === 0) {

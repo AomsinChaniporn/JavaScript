@@ -10,7 +10,6 @@ function additivePersistence(num,step = 0){
     }
 }
 
-
 additivePersistence(1679583);
 additivePersistence(123456)
 additivePersistence(6)
