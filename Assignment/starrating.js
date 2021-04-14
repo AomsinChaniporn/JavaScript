@@ -1,4 +1,4 @@
-function starRating(data){
+function StarRating(data){
     const sum = data.reduce((a,b)=>{
         return a+b;
     })
@@ -11,6 +11,6 @@ function starRating(data){
     return `[${avg.toFixed(2)}] ${'*'.repeat(Math.round(avg))}`;
 }
 
-console.log(starRating([55, 67, 98, 115, 61]));
-console.log(starRating([0, 2, 0, 1, 23]));
-console.log(starRating([16, 17, 23, 40, 45]));
+console.log(StarRating([55, 67, 98, 115, 61]));
+console.log(StarRating([0, 2, 0, 1, 23]));
+console.log(StarRating([16, 17, 23, 40, 45]));

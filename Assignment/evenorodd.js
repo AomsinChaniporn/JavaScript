@@ -1,4 +1,4 @@
-function factorGroup(num) {
+function EvenorOdd(num) {
     number = num;
 
 // ternary operator
@@ -8,6 +8,6 @@ function factorGroup(num) {
 return (`${result}`);
 }
 
-console.log(factorGroup(33));
-console.log(factorGroup(36));
-console.log(factorGroup(7));
+console.log(EvenorOdd(33));
+console.log(EvenorOdd(36));
+console.log(EvenorOdd(7));

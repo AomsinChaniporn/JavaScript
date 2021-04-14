@@ -1,11 +1,11 @@
-function primeFactorize(n) {
+function FactorTractor(n) {
     const primeFactors = [];
-    let primeFactor = 0;
+    let Factor = 0;
   
     let i = 2;
     while (i <= n / i) {
       if (n % i === 0) {
-        primeFactor = i;
+        Factor = i;
         primeFactors.push(i)
         n /= i;
       } else {
@@ -13,12 +13,12 @@ function primeFactorize(n) {
       }
     }
   
-    if (primeFactor < n) primeFactor = n;
+    if (Factor < n) Factor = n;
     primeFactors.push(n)
   
     return primeFactors;
   }
   
-  console.log(primeFactorize(25));
-  console.log(primeFactorize(19));
-  console.log(primeFactorize(77));
+  console.log(FactorTractor(25));
+  console.log(FactorTractor(19));
+  console.log(FactorTractor(77));

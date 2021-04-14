@@ -1,4 +1,4 @@
-function highestOccurrence(arr) {
+function HighestOccurrence(arr) {
 	let res={};
     for(let x of arr){
         if(res[x]){
@@ -25,6 +25,6 @@ function gen(x){
     return Number(x);
 }
 
-console.log(highestOccurrence([2, 3, 2, 5, 6, 7, 2]));
-console.log(highestOccurrence([1, 2, 3, 3, "a", "b", "b", "c"]));
-console.log(highestOccurrence(["it", "keeps", "coding", "on", "or", "it", "gets", "the", "hose"]));
+console.log(HighestOccurrence([2, 3, 2, 5, 6, 7, 2]));
+console.log(HighestOccurrence([1, 2, 3, 3, "a", "b", "b", "c"]));
+console.log(HighestOccurrence(["it", "keeps", "coding", "on", "or", "it", "gets", "the", "hose"]));
